@@ -28,8 +28,8 @@ header{
 .section{
     display: grid;
     grid-template-columns: 25% 1fr 25%;
-    grid-template-rows: 15% 1fr ;
-    height: 80vh;
+    grid-template-rows: 12% 1fr ;
+    height: 100vh;
 }
 
 @media screen and (max-width: 780px){
@@ -49,7 +49,7 @@ header{
     grid-column: 2/3;
     padding: 1%;
     position: relative;
-    height: 80vh;
+    height:85.6vh;
 }
 
 .linha{
