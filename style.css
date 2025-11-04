@@ -1,0 +1,70 @@
+body{
+    margin: 0; 
+    background-color: gray;
+}
+.branco{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preto{
+    background-color: rgb(87, 71, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    grid-row: 1;
+    grid-column: 1/4;
+    align-items: center;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    grid-template-rows: 15% 1fr ;
+    height: 80vh;
+}
+
+@media screen and (max-width: 780px){
+    .section{
+        grid-template-columns: 10% 1fr 10%;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .section{
+        grid-template-columns: 5% 1fr 5%;
+    }
+}
+.container{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2/3;
+    padding: 1%;
+    position: relative;
+    height: 80vh;
+}
+
+.linha{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.letras div{
+    margin-left: 50%;
+}
+
+img{
+    position: absolute;
+    height: 8vh;
+}
+
+
+
